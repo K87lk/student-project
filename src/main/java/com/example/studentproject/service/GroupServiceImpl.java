@@ -1,9 +1,8 @@
-package service;
+package com.example.studentproject.service;
 
-import dto.GroupDto;
-import entity.Group;
+import com.example.studentproject.entity.Group;
 import org.springframework.stereotype.Service;
-import repository.GroupRepository;
+import com.example.studentproject.repository.GroupRepository;
 
 import java.util.List;
 import java.util.Optional;

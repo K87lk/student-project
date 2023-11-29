@@ -1,7 +1,6 @@
-package service;
+package com.example.studentproject.service;
 
-import entity.Group;
-import entity.Student;
+import com.example.studentproject.entity.Student;
 
 import java.util.List;
 

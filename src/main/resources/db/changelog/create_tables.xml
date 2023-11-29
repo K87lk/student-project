@@ -29,7 +29,7 @@
                 <constraints primaryKey="true"/>
             </column>
 
-            <column name="enroll_date" type="date">
+            <column name="enroll_date" type="timestamp">
                 <constraints nullable="true"/>
             </column>
 

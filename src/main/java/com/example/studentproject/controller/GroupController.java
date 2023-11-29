@@ -1,10 +1,10 @@
-package controller;
+package com.example.studentproject.controller;
 
-import dto.GroupDto;
-import entity.Group;
+import com.example.studentproject.dto.GroupDto;
+import com.example.studentproject.entity.Group;
 import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.*;
-import service.GroupServiceImpl;
+import com.example.studentproject.service.GroupServiceImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;

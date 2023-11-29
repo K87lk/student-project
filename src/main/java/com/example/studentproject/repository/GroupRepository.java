@@ -1,6 +1,6 @@
-package repository;
+package com.example.studentproject.repository;
 
-import entity.Group;
+import com.example.studentproject.entity.Group;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface GroupRepository extends JpaRepository<Group, Long> {

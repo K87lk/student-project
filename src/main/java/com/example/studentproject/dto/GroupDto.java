@@ -1,4 +1,4 @@
-package dto;
+package com.example.studentproject.dto;
 
 import lombok.*;
 
@@ -6,6 +6,7 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class GroupDto {
     private Long id;
     private String number;
